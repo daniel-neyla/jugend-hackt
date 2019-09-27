@@ -7,3 +7,7 @@ for k, v in dict1.items():
 
 for l in list1:
     print('square: {}'.format(l**2))
+
+
+for zahl in range(100):
+    print(zahl)
