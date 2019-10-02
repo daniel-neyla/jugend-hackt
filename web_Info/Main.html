@@ -1,0 +1,157 @@
+<html>
+	<head>
+    	<title>CO2 - Rechner</title>
+		<link href = "style.css" type = "text/css" rel = "stylesheet">
+    	
+			<script language = "javascript" 
+				type = "text/javascript"
+				src = "code.js"
+				>
+		</script>
+			
+		
+		<meta charset= "ISO-8859-1">
+    	
+  	</head>
+  	<body>
+		  <h1>CO2 Fahrzeug Info</h1>
+		  
+		  <table border="0" >
+				<tr>
+					<td>
+						<input 
+						type="button" 
+						onclick="onBottumClickA();" 
+						
+						value="Hanauer Landstr. bis Riedberg">
+						</input>
+					</td>
+					<td>
+						<input 
+						type="button" 
+						onclick="onBottumClickB()" 
+						value="Frankfurt bis Berlin">
+						</input>
+					</td>
+				
+				
+					<td>
+						<input 
+						type="button" 
+						onclick="onBottumClickC()" 
+						value="Frankfurt bis Lisabon">
+						</input>
+					</td>
+					<td>
+						<input 
+						type="button" 
+						onclick="onBottumClickD()" 
+						value="Frankfurt bis Kapstadt">
+						</input>
+					</td>
+					</tr>
+				</tr>
+			</table>
+			<table border="3" class="table_hinter">
+				<tr>
+					<td>
+						Auswahl:
+					</td>
+					<td>
+						kilometer:
+					</td>
+				</tr>
+				<tr>
+					<td id="Auswahl">
+						Nichts Ausgewahlt
+					</td>
+					
+					<td id="km">
+						0
+					</td>
+				</tr>
+				
+				
+					
+			</table>
+			 
+		<table border="3" class="table_hinter">
+			<tr>
+				<td>
+					Fahrzeug
+				</td>
+				<td>
+					CO2 in Gramm
+				</td>
+				<td>
+					% Pro Woche
+				</td>
+				<td>
+					% Pro Woche Soll
+				</td>
+			</tr>
+			
+			
+			<tr>
+				<td>
+					Auto
+				</td>
+				<td id = "austoß_Auto">
+						0
+				</td>
+				<td id = "proßent_Auto">
+						0
+				</td>
+				<td id = "proßent_Soll_Auto">
+					0
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Bahn
+				</td>
+				<td id = "austoß_Bahn">
+						0
+				</td>
+				<td id = "proßent_Bahn">
+						0
+				</td>
+				<td id = "proßent_Soll_Bahn">
+					0
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Flugzeug
+				</td>
+				<td id = "austoß_Flugzeug">
+						0
+				</td>
+				<td id = "proßent_Flugzeug">
+						0
+				</td>
+				<td id = "proßent_Soll_Flugzeug">
+					0
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Fahrad
+				</td>
+				<td id = "austoß_Fahrad">
+						0
+				</td>
+				<td id = "proßent_Fahrad">
+						0
+				</td>
+				<td id = "proßent_Soll_Fahrad">
+					0
+				</td>
+			</tr>
+		</table>
+
+
+		<a class="table_hinter" href="Website/index.html">Klick hier f&uuml;r mehr infos</a>
+
+	</body>
+</html>

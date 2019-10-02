@@ -1,0 +1,28 @@
+
+Formel: CO2_Ferbrauch= km * CO2 (in gram / pro km)
+
+CO2 Austoß pro km fon:
+    Auto: 
+    Fahrad
+    Foßgänger
+    Flugzeug
+    Bahn
+
+Streck in km:
+    Hanauer Landstr. bis Ridberg
+        Auto:       13km
+        Fahrad:     13km
+        Öpnv:       13km
+    Frankfurt bis Berlin
+        Auto:       560km
+        Fern Bus:   km
+        Bahn:       km
+        Flugzeug:   km
+    Frankfurt bis Lisabon
+        Auto:       2413km
+        Fern Bus:   km
+        Bahn:       km
+        Flugzeug:   1983km
+    Frankfurt bis Kapstadt
+        Auto:       km
+        Flugzeug:   km
